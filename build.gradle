@@ -17,6 +17,14 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     // 添加 Thymeleaf 的依赖
     implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+    // 添加 Spring Data JPA 的依赖
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    // 添加 MySQL连接驱动 的依赖
+	implementation 'mysql:mysql-connector-java:6.0.5'
+
+    // h2 内存数据库
+	runtime 'com.h2database:h2:+'
+
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }

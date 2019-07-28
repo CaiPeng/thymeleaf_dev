@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS blog;
+
+CREATE DATABASE blog DEFAULT utf8 COLLATE utf8_general_ci;
